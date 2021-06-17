@@ -1,0 +1,41 @@
+<hmtl>
+    <head>
+        <title>Telefone_Cadastro</title> <!-- titulo da pagina -->
+        <link rel="stylesheet" type="text/css" href="../css/cabecalho1.css"/> <!-- tranporte das modificações feitas no css-->
+        <link rel="stylesheet" type="text/css" href="../css/menu1.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/principal1.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/conteudo1.css"/>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/telefone_de_contato.js"></script>
+
+    </head>
+
+
+
+    <body>
+        <div id=conteudo>
+            <h2>Preenchendo Telefone para Contato</h2>
+            <form id="dados" method="post" action="cadastro.php">
+                
+                <div class="coluna_esquerda">
+                    <div class="card"> 
+                        <p>Telefone Celular: <input type="text" id="tc" name="tc"> </p> <!--utilizando o input para criar uma caixa de texto para o usuario preencher-->
+                    </div>
+                    
+                    <div class="card"> 
+                        <p>Telefone Fixo: <input type="text" id="tf" name="tf"> </p> <!--utilizando o input para criar uma caixa de texto para o usuario preencher-->
+                    </div>
+                </div>
+
+                <div class = "coluna_esquerda"> <!--utilizando a div para agrupar as informaçoes-->
+                    <p></p>
+                    <p>Enviar Dados</p>
+                        <p><input id="ETC" type="submit" value="Enviar"> </p> <!-- este botao ira enviar os dados para o servidor-->
+                        <p></p>
+                        <p>Limpar Dados </p>
+                        <p><input id="LTC" type="reset" value="Limpar"> </p> <!--este botao ira limpar os dados preenchido pelo usuario-->
+                </div>
+            </form>
+    </body>
+</hmtl>

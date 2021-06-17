@@ -1,0 +1,9 @@
+#cabecalho1{ /* as configuraçoes presentes neste css serao apresentadas nas paginas em que seu id for apresentado*/
+    padding: 30px;    
+    text-align: center;
+    background:rgb(240, 226, 102);
+}
+
+#cabechalho1 h1{ /*ira mudar o tamanho e cor*/
+    font-size: 3rem;
+}

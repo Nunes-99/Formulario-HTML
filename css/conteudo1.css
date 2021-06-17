@@ -1,0 +1,27 @@
+/* as configuraçoes presentes neste css serao apresentadas nas paginas em que seu id for apresentado*/
+
+.coluna_esquerda{ /* definindo como ira ser as definiçoes desta classe, referente ao lado que ira se posicionar,
+    e a distribuiçao de seu tamanho*/
+    float: left;
+    width: 50%;
+}
+
+.coluna_direita{ /* definindo como ira ser as definiçoes desta classe, referente ao lado que ira se posicionar,
+    e a distribuiçao de seu tamanho, alem da cor de fundo e a distacia do lado esquerdo em que o texto ira estar*/
+    float: left;
+    width: 50%;
+    background-color:rgb(240, 226, 102);
+    padding-left: 20px;
+}
+
+.img_fake{ /* definindo como ira ser as caracteristicas da imagem desta classe, referente a cor de fundo, entre outras coisas*/
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.card{ /* definindo como ira ser as caracteristicas desta classe, referente a cor, distancia da margem*/
+    background-color: #d67423;
+    padding: 10px;
+    margin-top: 20px;
+}

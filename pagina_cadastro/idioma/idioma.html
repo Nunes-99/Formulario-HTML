@@ -1,0 +1,61 @@
+<hmtl>
+    <head>
+        <title>Idioma</title>
+        <link rel="stylesheet" type="text/css" href="../css/cabecalho1.css"/> <!-- tranporte das modificações feitas no css-->
+        <link rel="stylesheet" type="text/css" href="../css/menu1.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/principal1.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/conteudo1.css"/>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/idioma.js"></script>
+
+    </head>
+
+
+
+    <body>
+        <div id=conteudo>
+            <h2>Preencha o Idioma</h2>
+            <form id="dados" method="post" action="cadastro.php">
+                
+                <div class="coluna_esquerda">
+                    <div class="card">                    
+                        <h3>Formação </h3>
+                        <p>Idioma: <input type="text" id="idioma" name="idioma"> </p>  <!--utilizando o input para criar uma caixa de texto para o usuario preencher-->
+                        <p>Instituição: <input type="text" id="insti" name="insti"> </p>
+                        <p>Data de Inicio: <input type="date" id="d_inicio" name="d_inicio"> </p>
+                        <p>Data de Termino: <input type="date" id="d_termino" name="d_termino"> </p>
+                    </div>
+
+                    <div>
+                        <div class="coluna_esquerda">
+                            <div class="card"> 
+                                <p>Nivel de Escrita: <input name="nivel" type="radio" id="nivel"> Basico <!-- utilizando este tipo de input o usuario so podera selecionar uma opção pois os inputs esta com o mesmo name-->
+                                                <input name="nivel" type="radio" id="nivel"> Intermediario </p>
+                                                <input name="nivel" type="radio" id="nivel"> Avançado </p>
+                            </div>
+                        </div>
+
+                        <div class="coluna_esquerda">
+                            <div class="card"> 
+                                <p>Nivel de Conversação: <input name="NC" type="radio" id="NC"> Basico <!-- utilizando este tipo de input o usuario so podera selecionar uma opção pois os inputs esta com o mesmo name-->
+                                                <input name="NC" type="radio" id="NC"> Intermediario </p>
+                                                <input name="NC" type="radio" id="NC"> Avançado </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class = "coluna_esquerda">
+                    <p></p>
+                    <p>Enviar Dados</p>
+                        <p><input id="EI" type="submit" value="Enviar"> </p>
+                        <p></p>
+                        <p>Limpar Dados </p>
+                        <p><input id="LI" type="reset" value="Limpar"> </p>
+                </div>
+            </form>
+    </body>
+</hmtl>

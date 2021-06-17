@@ -1,0 +1,17 @@
+/* as configuraçoes presentes neste css serao apresentadas nas paginas em que seu id for apresentado*/
+
+#menu1 a{ /* esta alteraçao é referente ao  menu, pois as palvras estao dentro de caixas */
+    /*alem de alterar a cor da palavra, alinhar o texto, posicionar no lado esquerdo da barra, entre outras coisas*/
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+/*Configuração do link quando passamos o mouse sobre ele.*/
+#menu1 a:hover{
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
